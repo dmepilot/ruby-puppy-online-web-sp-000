@@ -17,6 +17,7 @@ class Dog
   end
   
   def self.print_all
+    #puts @@all.map{ |dog| dog.name } simpler method 
     @@all.each do |dog|
       puts "#{dog.name}"
     end
